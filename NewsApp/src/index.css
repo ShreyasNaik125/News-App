@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #000;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Logo h1{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+body{
+  background: #fff;
+}
+
+img{
+  height: 150px;
+  width: auto;
+  border-radius: 0.5rem;
+}
+
+.news{
+  display: flex;
+  gap: 20px;
+  width: 600px;
+  background: #ddd;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.news .more-info{
+  display: flex;
+  gap: -50px;
+  flex-direction: column;
+}
+
+.searchbar{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.searchbar input {
+  background: #b5b5b5;
+  padding: 10px 15px;
+  width: 40%;
+  border: 0;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.searchbar button {
+  background: rgb(83, 83, 234);
+  color: #fff;
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 10px 15px;
+}
+
+.Latest-News{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
